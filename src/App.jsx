@@ -1,9 +1,10 @@
 import { Route, Routes } from "react-router-dom";
-import Home from "./components/Home";
-import About from "./components/About";
-import Projects from "./components/Projects";
-import Contact from "./components/Contact";
-import ErrorPage from "./components/ErrorPage";
+import Home from "./components/pages/Home";
+import About from "./components/pages/About";
+import Projects from "./components/pages/Projects";
+import Contact from "./components/pages/Contact";
+import ErrorPage from "./components/pages/ErrorPage";
+import "./App.css";
 
 function App() {
   return (
