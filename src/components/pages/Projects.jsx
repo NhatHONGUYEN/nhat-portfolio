@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 export default function Projects() {
   return (
-    <ProjectsStyled>
+    <ProjectsStyled id="projects">
       <h1>Projects</h1>
       <div className="project-container">
         <div className="left-review">

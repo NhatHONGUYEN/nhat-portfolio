@@ -1,4 +1,5 @@
 import About from "./About";
+import Contact from "./Contact";
 import Introduction from "./Introduction";
 import NavBar from "./NavBar";
 import Projects from "./Projects";
@@ -10,6 +11,7 @@ export default function Home() {
       <Introduction />
       <About />
       <Projects />
+      <Contact />
     </>
   );
 }

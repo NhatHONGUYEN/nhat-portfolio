@@ -7,7 +7,7 @@ import { theme } from "../theme";
 
 export default function Introduction() {
   return (
-    <IntroductionStyled>
+    <IntroductionStyled id="/">
       <div className="left-side-intro">
         <h1>Front-End React developer</h1>
         <p>

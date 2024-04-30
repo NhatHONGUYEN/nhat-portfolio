@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 export default function About() {
   return (
-    <AboutStyled>
+    <AboutStyled id="about">
       <div className="image-about">
         <img src="/photo-profil.jpg" alt="picture-Nhat" />
       </div>
