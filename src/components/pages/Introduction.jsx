@@ -115,7 +115,7 @@ const IntroductionStyled = styled.div`
   }
 
   .image-intro {
-    height: 50%;
+    height: 55%;
     width: 25%;
     border-radius: 60% 40% 30% 70% / 60% 30% 70% 40%;
     background-color: ${theme.colors.orange};
@@ -125,5 +125,48 @@ const IntroductionStyled = styled.div`
     height: 100%;
     width: 100%;
     object-fit: cover;
+  }
+
+  @media (max-width: 425px) {
+    display: flex;
+    flex-direction: column;
+    padding-top: 30%;
+
+    .left-side-intro {
+      width: 100%;
+      margin-left: 20%;
+
+      h1 {
+        margin: 0;
+        font-size: 1.5rem;
+      }
+      p {
+        margin: 20px 0 0 0;
+        font-size: 1rem;
+      }
+
+      .icon {
+        font-size: 1.5rem;
+      }
+
+      .skills {
+        display: flex;
+        align-items: center;
+      }
+
+      .tech-stack-text {
+        margin-right: 30px;
+      }
+      .icon-tech {
+        display: inline-flex;
+        transform: translateY(10px);
+        font-size: 1.5rem;
+      }
+    }
+  }
+
+  .image-intro {
+    height: 50%;
+    width: 60%;
   }
 `;

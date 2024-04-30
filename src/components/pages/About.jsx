@@ -70,4 +70,47 @@ const AboutStyled = styled.div`
       font-size: 1rem;
     }
   }
+
+  @media (max-width: 425px) {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+
+    .image-about {
+      height: 60%;
+      width: 23%;
+      border-radius: 60% 40% 30% 70% / 60% 30% 70% 40%;
+      overflow: hidden;
+
+      img {
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+      }
+    }
+    .about-text {
+      width: 25%;
+      height: 40%;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-evenly;
+
+      h2 {
+        font-weight: bold;
+        font-size: 1.3rem;
+      }
+      h3 {
+        font-weight: bold;
+        font-size: 1.7rem;
+        transition: color 0.3s ease;
+
+        &:hover {
+          color: ${theme.colors.orange};
+        }
+      }
+      p {
+        font-size: 1rem;
+      }
+    }
+  }
 `;

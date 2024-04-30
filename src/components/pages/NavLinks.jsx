@@ -25,4 +25,9 @@ const NavLinksStyled = styled.div`
   gap: 3rem;
   font-size: 1.3rem;
   cursor: pointer;
+
+  @media (max-width: 425px) {
+    font-size: 1rem;
+    gap: 1rem;
+  }
 `;
