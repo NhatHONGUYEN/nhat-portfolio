@@ -4,7 +4,7 @@ export default function About() {
   return (
     <AboutStyled>
       <div className="image-about">
-        <img src="/Nhat.png" alt="picture-Nhat" />
+        <img src="/photo-profil.jpg" alt="picture-Nhat" />
       </div>
 
       <div className="about-text">
@@ -37,7 +37,7 @@ const AboutStyled = styled.div`
     height: 600px;
     width: 450px;
     border-radius: 60% 40% 30% 70% / 60% 30% 70% 40%;
-    background-color: black;
+    background-color: #ffbb70;
     overflow: hidden;
 
     img {

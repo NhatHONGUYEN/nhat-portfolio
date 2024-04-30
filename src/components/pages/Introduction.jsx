@@ -3,6 +3,7 @@ import { GrGithub } from "react-icons/gr";
 import { IoLogoCss3 } from "react-icons/io";
 import { RiJavascriptFill } from "react-icons/ri";
 import styled from "styled-components";
+import { theme } from "../theme";
 
 export default function Introduction() {
   return (
@@ -79,7 +80,7 @@ const IntroductionStyled = styled.div`
     height: 450px;
     width: 450px;
     border-radius: 60% 40% 30% 70% / 60% 30% 70% 40%;
-    background-color: black;
+    background-color: ${theme.colors.loginLine};
     overflow: hidden;
   }
   .image-intro img {
