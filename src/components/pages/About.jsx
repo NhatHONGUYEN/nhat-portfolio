@@ -28,7 +28,7 @@ export default function About() {
 const AboutStyled = styled.div`
   height: 100vh;
   width: 100%;
-  background-color: #f9f9f9;
+  background-color: ${theme.colors.background_grey};
   display: flex;
   justify-content: center;
   align-items: center;
@@ -63,7 +63,7 @@ const AboutStyled = styled.div`
       transition: color 0.3s ease;
 
       &:hover {
-        color: ${theme.colors.loginLine};
+        color: ${theme.colors.orange};
       }
     }
     p {

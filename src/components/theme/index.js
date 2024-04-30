@@ -3,6 +3,7 @@ const colors = {
   incognito: "#333",
   white: "#fff",
   background_white: "#f5f5f7",
+  background_grey: "#f9f9f9",
   background_dark: "#292729",
   primary: "#ffa01b",
   green: "green",
@@ -15,7 +16,7 @@ const colors = {
   greySemiDark: "#93a2b1",
   greyDark: "#6f737e",
   greyBlue: "#747b91",
-  loginLine: "#f56a2c",
+  orange: "#f56a2c",
 };
 
 const spacing = {

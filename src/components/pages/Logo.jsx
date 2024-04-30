@@ -7,5 +7,5 @@ export default function Logo() {
 const LogoStyled = styled.div`
   font-size: 40px;
   font-weight: bold;
-  color: ${theme.colors.loginLine};
+  color: ${theme.colors.orange};
 `;

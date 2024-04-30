@@ -67,7 +67,7 @@ const IntroductionStyled = styled.div`
       transition: color 0.3s ease; /* pour une transition en douceur */
 
       &:hover {
-        color: ${theme.colors.loginLine}; /* couleur de texte au survol */
+        color: ${theme.colors.orange}; /* couleur de texte au survol */
       }
     }
     p {
@@ -85,7 +85,7 @@ const IntroductionStyled = styled.div`
 
         &:hover {
           transform: translateY(-10px);
-          color: ${theme.colors.loginLine};
+          color: ${theme.colors.orange};
         }
       }
     }
@@ -108,7 +108,7 @@ const IntroductionStyled = styled.div`
 
         &:hover {
           transform: translateY(-10px);
-          color: ${theme.colors.loginLine};
+          color: ${theme.colors.orange};
         }
       }
     }
@@ -118,7 +118,7 @@ const IntroductionStyled = styled.div`
     height: 450px;
     width: 450px;
     border-radius: 60% 40% 30% 70% / 60% 30% 70% 40%;
-    background-color: ${theme.colors.loginLine};
+    background-color: ${theme.colors.orange};
     overflow: hidden;
   }
   .image-intro img {

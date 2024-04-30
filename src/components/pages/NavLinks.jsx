@@ -39,6 +39,6 @@ const StyledLink = styled(({ isSmooth, ...props }) => {
 
   &:hover {
     transform: scale(1.5);
-    color: ${theme.colors.loginLine};
+    color: ${theme.colors.orange};
   }
 `;
