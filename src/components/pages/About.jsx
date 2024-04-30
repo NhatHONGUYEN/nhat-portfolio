@@ -27,7 +27,7 @@ export default function About() {
 const AboutStyled = styled.div`
   height: 100vh;
   width: 100%;
-
+  background-color: #f9f9f9;
   display: flex;
   justify-content: center;
   align-items: center;
