@@ -75,23 +75,23 @@ const ContactStyled = styled.div`
   background-color: ${theme.colors.background_grey};
 
   .text-contact {
-    width: 400px;
+    width: 40%;
 
     p {
       font-weight: bold;
-      font-size: 17px;
+      font-size: 1.3rem;
     }
 
     h1 {
       font-weight: bold;
-      font-size: 25px;
+      font-size: 1.5rem;
       color: ${theme.colors.orange};
     }
   }
 
   .icon-text {
-    padding-top: 50px;
-    width: 600px;
+    padding-top: 3%;
+    width: 50%;
     display: flex;
     justify-content: space-between;
 
@@ -138,7 +138,7 @@ const ContactStyled = styled.div`
       font-size: 30px;
       display: flex;
       justify-content: space-evenly;
-      width: 200px;
+      width: 15%;
       svg {
         color: black;
         transition: transform 0.2s, color 0.2s;

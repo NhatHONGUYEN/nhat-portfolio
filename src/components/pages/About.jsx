@@ -32,11 +32,11 @@ const AboutStyled = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 100px;
+  gap: 7%;
 
   .image-about {
-    height: 600px;
-    width: 450px;
+    height: 60%;
+    width: 23%;
     border-radius: 60% 40% 30% 70% / 60% 30% 70% 40%;
     overflow: hidden;
 
@@ -47,19 +47,19 @@ const AboutStyled = styled.div`
     }
   }
   .about-text {
-    width: 500px;
-    height: 350px;
+    width: 25%;
+    height: 40%;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
 
     h2 {
       font-weight: bold;
-      font-size: 20px;
+      font-size: 1.3rem;
     }
     h3 {
       font-weight: bold;
-      font-size: 25px;
+      font-size: 1.7rem;
       transition: color 0.3s ease;
 
       &:hover {
@@ -67,7 +67,7 @@ const AboutStyled = styled.div`
       }
     }
     p {
-      font-size: 18px;
+      font-size: 1rem;
     }
   }
 `;

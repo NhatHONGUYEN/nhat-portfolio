@@ -55,13 +55,13 @@ const IntroductionStyled = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 150px;
+  gap: 10vh;
 
   .left-side-intro {
-    width: 500px;
+    width: 25%;
     h1 {
       margin: 20px 0;
-      font-size: 55px;
+      font-size: 3rem;
       font-weight: 700;
       color: ${theme.colors.text};
       transition: color 0.3s ease;
@@ -72,12 +72,12 @@ const IntroductionStyled = styled.div`
     }
     p {
       margin: 20px 0 0 0;
-      font-size: 18px;
+      font-size: 1rem;
     }
 
     .icon {
-      height: 32px;
-      font-size: 30px;
+      height: 20%;
+      font-size: 2rem;
 
       svg {
         color: black;
@@ -101,7 +101,7 @@ const IntroductionStyled = styled.div`
     .icon-tech {
       display: inline-flex;
       transform: translateY(10px);
-      font-size: 40px;
+      font-size: 2rem;
 
       svg {
         transition: transform 0.2s, color 0.2s;
@@ -115,8 +115,8 @@ const IntroductionStyled = styled.div`
   }
 
   .image-intro {
-    height: 450px;
-    width: 450px;
+    height: 50%;
+    width: 25%;
     border-radius: 60% 40% 30% 70% / 60% 30% 70% 40%;
     background-color: ${theme.colors.orange};
     overflow: hidden;

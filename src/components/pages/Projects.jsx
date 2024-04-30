@@ -58,13 +58,14 @@ const ProjectsStyled = styled.div`
   h1 {
     position: absolute;
     top: 13vh;
-    font-size: 45px;
+    left: 43%;
+    font-size: 2.7rem;
     font-weight: bold;
   }
 
   .project-container {
     display: flex;
-    height: 500px;
+    height: 60%;
     margin-top: 15vh;
     gap: 10vh;
 
@@ -74,8 +75,8 @@ const ProjectsStyled = styled.div`
     }
 
     img {
-      width: 400px;
-      height: 300px;
+      width: 80%;
+      height: 50%;
       object-fit: cover;
       border: 1px solid black;
       border-radius: 20px;
@@ -97,7 +98,7 @@ const ProjectsStyled = styled.div`
       text-align: center;
 
       p {
-        padding-bottom: 20px;
+        padding-bottom: 5%;
       }
     }
     .right-review {
@@ -113,7 +114,7 @@ const ProjectsStyled = styled.div`
       padding: 40px;
 
       p {
-        width: 300px;
+        width: 60%;
       }
     }
   }
