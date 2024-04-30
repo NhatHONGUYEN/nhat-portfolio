@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import { theme } from "../theme";
 
 export default function About() {
   return (
@@ -37,7 +38,6 @@ const AboutStyled = styled.div`
     height: 600px;
     width: 450px;
     border-radius: 60% 40% 30% 70% / 60% 30% 70% 40%;
-    background-color: #ffbb70;
     overflow: hidden;
 
     img {
@@ -60,6 +60,11 @@ const AboutStyled = styled.div`
     h3 {
       font-weight: bold;
       font-size: 25px;
+      transition: color 0.3s ease;
+
+      &:hover {
+        color: ${theme.colors.loginLine};
+      }
     }
     p {
       font-size: 18px;
