@@ -27,7 +27,10 @@ export default function Contact() {
           <div className="mail">
             <MdOutlineEmail />
             <div className="right-side">
-              <h4>Mail</h4> hnnhat@gmail.com
+              <h4>Mail</h4>
+              <a className="email-link" href="mailto:hnnhat@gmail.com">
+                hnnhat@gmail.com
+              </a>
             </div>
           </div>
         </div>
@@ -35,8 +38,27 @@ export default function Contact() {
       <div className="icon-contact">
         Copyright © 2024. All rights are reserved
         <div className="icon-right-side">
-          <GrGithub /> <FaLinkedin />
-          <IoLogoInstagram />
+          <a
+            href="https://github.com/NhatHONGUYEN"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <GrGithub />
+          </a>
+          <a
+            href="https://www.linkedin.com/in/nhat-quan-ho-nguyen/"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <FaLinkedin />
+          </a>
+          <a
+            href="https://www.instagram.com/nhatflux/"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <IoLogoInstagram />
+          </a>
         </div>
       </div>
     </ContactStyled>
@@ -83,8 +105,8 @@ const ContactStyled = styled.div`
       svg {
         width: 30px;
         height: 30px;
-        border: 1px solid black;
         border-radius: 1000px;
+        background-color: ${theme.colors.orange};
       }
 
       div {
@@ -96,7 +118,17 @@ const ContactStyled = styled.div`
     }
   }
 
+  .right-side .email-link {
+    color: black;
+    text-decoration: none;
+
+    &:hover {
+      color: ${theme.colors.orange};
+    }
+  }
+
   .icon-contact {
+    padding-top: 20px;
     height: 20%;
     width: 100%;
     display: flex;
@@ -107,6 +139,15 @@ const ContactStyled = styled.div`
       display: flex;
       justify-content: space-evenly;
       width: 200px;
+      svg {
+        color: black;
+        transition: transform 0.2s, color 0.2s;
+
+        &:hover {
+          transform: translateY(-10px);
+          color: ${theme.colors.orange};
+        }
+      }
     }
   }
 `;

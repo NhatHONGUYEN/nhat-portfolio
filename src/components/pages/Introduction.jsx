@@ -63,11 +63,11 @@ const IntroductionStyled = styled.div`
       margin: 20px 0;
       font-size: 55px;
       font-weight: 700;
-      color: ${theme.colors.text}; /* couleur de texte normale */
-      transition: color 0.3s ease; /* pour une transition en douceur */
+      color: ${theme.colors.text};
+      transition: color 0.3s ease;
 
       &:hover {
-        color: ${theme.colors.orange}; /* couleur de texte au survol */
+        color: ${theme.colors.orange};
       }
     }
     p {
