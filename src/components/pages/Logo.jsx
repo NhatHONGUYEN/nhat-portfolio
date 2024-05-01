@@ -9,6 +9,10 @@ const LogoStyled = styled.div`
   font-weight: bold;
   color: ${theme.colors.orange};
 
+  @media (min-width: 426px) and (max-width: 768px) {
+    font-size: 1.3rem;
+  }
+
   @media (max-width: 425px) {
     font-size: 1.2rem;
   }
