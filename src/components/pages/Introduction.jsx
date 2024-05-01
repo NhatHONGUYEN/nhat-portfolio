@@ -61,7 +61,6 @@ const IntroductionStyled = styled.div`
   align-items: center;
 
   .introduction-container {
-    /* background: red; */
     height: 80vh;
     width: 60%;
     display: flex;
@@ -72,7 +71,7 @@ const IntroductionStyled = styled.div`
 
   .left-side-intro {
     width: 40%;
-    /* background: green; */
+
     h1 {
       margin: 20px 0;
       font-size: 3rem;
@@ -145,7 +144,7 @@ const IntroductionStyled = styled.div`
     }
   }
 
-  @media (min-width: 427px) and (max-width: 1024px) {
+  @media (min-width: 769px) and (max-width: 1024px) {
     .introduction-container {
       width: 80%;
       height: 90;
@@ -228,7 +227,6 @@ const IntroductionStyled = styled.div`
 
     .left-side-intro {
       width: 100%;
-      margin-left: 20%;
 
       h1 {
         margin: 0;
