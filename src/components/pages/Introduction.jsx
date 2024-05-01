@@ -147,7 +147,7 @@ const IntroductionStyled = styled.div`
   @media (min-width: 769px) and (max-width: 1024px) {
     .introduction-container {
       width: 80%;
-      height: 90;
+      height: 90%;
       padding-top: 5%;
     }
 

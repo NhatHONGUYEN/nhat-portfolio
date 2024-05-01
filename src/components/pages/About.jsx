@@ -37,15 +37,15 @@ const AboutStyled = styled.div`
 
   .about-container {
     height: 90%;
-    width: 80%;
+    width: 60%;
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 7%;
+    gap: 10%;
 
     .image-about {
       height: 60%;
-      width: 23%;
+      width: 40%;
       border-radius: 60% 40% 30% 70% / 60% 30% 70% 40%;
       overflow: hidden;
 
@@ -163,8 +163,8 @@ const AboutStyled = styled.div`
       gap: 5%;
 
       .image-about {
-        width: 50%;
-        height: 50%;
+        width: 60%;
+        height: 40%;
       }
       .about-text {
         width: 70%;
