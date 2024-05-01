@@ -1,5 +1,4 @@
 import styled from "styled-components";
-import { theme } from "../theme";
 
 export default function Projects() {
   return (
@@ -94,7 +93,7 @@ const ProjectsStyled = styled.div`
       flex-direction: column;
       justify-content: space-evenly;
       align-items: center;
-      padding: 40px;
+
       text-align: center;
 
       p {
@@ -111,10 +110,150 @@ const ProjectsStyled = styled.div`
       align-items: center;
       text-align: center;
 
-      padding: 40px;
-
       p {
         width: 60%;
+      }
+    }
+  }
+
+  @media (min-width: 769px) and (max-width: 1024px) {
+    h1 {
+      position: absolute;
+      top: 15vh;
+      left: 44%;
+      font-size: 2rem;
+      font-weight: bold;
+    }
+    .project-container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-left: 10vh;
+      margin-top: 15vh;
+      gap: 0;
+
+      h2 {
+        font-weight: bold;
+        padding: 5vh 0;
+      }
+
+      .right-review {
+        img {
+          width: 75%;
+        }
+
+        p {
+          width: 50%;
+        }
+      }
+    }
+  }
+
+  @media (min-width: 426px) and (max-width: 768px) {
+    h1 {
+      position: absolute;
+      top: 10vh;
+      left: 43%;
+      font-size: 1.5rem;
+      font-weight: bold;
+    }
+
+    .project-container {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      gap: 5vh;
+      width: 70%;
+      height: 80%;
+      padding-left: 20vh;
+
+      a {
+        text-decoration: none;
+        color: inherit;
+      }
+
+      img {
+        width: 100%;
+        height: 100%;
+      }
+
+      h2 {
+        font-weight: bold;
+        font-size: 1.2rem;
+        padding: 3vh 0;
+      }
+
+      .left-review {
+        width: 60%;
+        p {
+          font-size: 0.7rem;
+        }
+      }
+      .right-review {
+        width: 60%;
+        border-radius: 20px;
+
+        p {
+          width: 100%;
+          font-size: 0.7rem;
+        }
+      }
+    }
+  }
+
+  @media (max-width: 425px) {
+    h1 {
+      position: absolute;
+      top: 7vh;
+      left: 39%;
+      font-size: 1.5rem;
+      font-weight: bold;
+    }
+
+    .project-container {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      height: 80%;
+      gap: 0;
+      width: 70%;
+      padding-bottom: 5vh;
+
+      a {
+        text-decoration: none;
+        color: inherit;
+      }
+
+      img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        border: 1px solid black;
+        border-radius: 20px;
+      }
+
+      h2 {
+        font-weight: bold;
+        font-size: 1.2rem;
+        padding: 3vh 0;
+      }
+
+      .left-review {
+        height: 50%;
+        p {
+          font-size: 0.7rem;
+        }
+      }
+      .right-review {
+        height: 50%;
+        border-radius: 20px;
+
+        p {
+          width: 60%;
+          font-size: 0.7rem;
+        }
       }
     }
   }
