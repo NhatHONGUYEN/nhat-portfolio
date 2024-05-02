@@ -46,4 +46,36 @@ const IconContactStyled = styled.div`
       }
     }
   }
+
+  @media (min-width: 769px) and (max-width: 1024px) {
+    font-size: 0.9rem;
+
+    .icon-right-side {
+      font-size: 1.7rem;
+    }
+  }
+
+  @media (min-width: 426px) and (max-width: 768px) {
+    font-size: 0.8rem;
+
+    .icon-right-side {
+      font-size: 1.2rem;
+    }
+  }
+
+  @media (max-width: 425px) {
+    padding-top: 20px;
+    height: 20%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+
+    font-size: 0.7rem;
+
+    .icon-right-side {
+      font-size: 1rem;
+      display: flex;
+      justify-content: space-evenly;
+    }
+  }
 `;

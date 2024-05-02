@@ -23,4 +23,44 @@ const TextContactStyled = styled.div`
     font-size: 1.5rem;
     color: ${theme.colors.orange};
   }
+
+  @media (min-width: 769px) and (max-width: 1024px) {
+    p {
+      font-size: 1.7rem;
+    }
+
+    h1 {
+      font-size: 1.7rem;
+    }
+  }
+
+  @media (min-width: 426px) and (max-width: 768px) {
+    width: 100%;
+
+    p {
+      font-weight: bold;
+      font-size: 1rem;
+    }
+
+    h1 {
+      font-weight: bold;
+      font-size: 1rem;
+      color: ${theme.colors.orange};
+    }
+  }
+
+  @media (max-width: 425px) {
+    width: 100%;
+
+    p {
+      font-weight: bold;
+      font-size: 0.7rem;
+    }
+
+    h1 {
+      font-weight: bold;
+      font-size: 0.7rem;
+      color: ${theme.colors.orange};
+    }
+  }
 `;

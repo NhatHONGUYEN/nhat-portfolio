@@ -2,7 +2,6 @@ import { MdOutlineEmail } from "react-icons/md";
 import { PiPhoneFill } from "react-icons/pi";
 import styled from "styled-components";
 import { ContactInfo } from "../../../../reusable ui/ContactInfo";
-import { theme } from "../../../theme";
 
 export default function IconText() {
   return (
@@ -25,27 +24,6 @@ const IconTextStyled = styled.div`
   padding-top: 3%;
   width: 40%;
   display: flex;
-  justify-content: space-between;
-
-  .phone,
-  .mail {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 50px;
-
-    svg {
-      width: 30px;
-      height: 30px;
-      border-radius: 1000px;
-      background-color: ${theme.colors.orange};
-    }
-
-    div {
-      margin-left: 10px;
-      h4 {
-        font-weight: bold;
-      }
-    }
-  }
+  flex-direction: row;
+  gap: 10vh;
 `;
