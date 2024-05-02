@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import { theme } from "../components/theme";
 
 export const ContactInfo = ({ icon, title, value }) => (
   <ContactInfoStyled>
@@ -25,5 +26,12 @@ const ContactInfoStyled = styled.div`
     display: flex;
     align-items: center;
     gap: 3rem;
+
+    svg {
+      height: 3vh;
+      width: 3vh;
+      border-radius: 1000px;
+      background-color: ${theme.colors.orange};
+    }
   }
 `;

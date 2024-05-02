@@ -2,6 +2,7 @@ import { MdOutlineEmail } from "react-icons/md";
 import { PiPhoneFill } from "react-icons/pi";
 import styled from "styled-components";
 import { ContactInfo } from "../../../../reusable ui/ContactInfo";
+import { theme } from "../../../theme";
 
 export default function IconText() {
   return (
@@ -14,7 +15,7 @@ export default function IconText() {
       <ContactInfo
         icon={<MdOutlineEmail />}
         title="Mail"
-        value="hnnhat@gmail.com"
+        value={<a href="mailto:hnnhat67@gmail.com">hnnhat67@gmail.com</a>}
       />
     </IconTextStyled>
   );
@@ -26,4 +27,13 @@ const IconTextStyled = styled.div`
   display: flex;
   flex-direction: row;
   gap: 10vh;
+
+  a {
+    color: black;
+    text-decoration: none;
+
+    &:hover {
+      color: ${theme.colors.orange};
+    }
+  }
 `;
