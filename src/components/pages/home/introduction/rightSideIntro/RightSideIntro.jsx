@@ -28,4 +28,12 @@ const RightSideIntroStyled = styled.div`
     width: 100%;
     object-fit: cover;
   }
+
+  @media (max-width: 425px) {
+    padding-left: 20%;
+    .image-intro {
+      height: 100%;
+      width: 70%;
+    }
+  }
 `;

@@ -79,7 +79,6 @@ const IntroductionStyled = styled.div`
   @media (max-width: 425px) {
     .introduction-container {
       flex-direction: column;
-      margin-top: 20%;
     }
 
     .left-side-intro {

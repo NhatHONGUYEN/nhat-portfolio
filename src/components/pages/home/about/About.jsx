@@ -117,32 +117,8 @@ const AboutStyled = styled.div`
       gap: 5%;
 
       .image-about {
-        width: 60%;
-        height: 40%;
-      }
-      .about-text {
         width: 70%;
-        height: 40%;
-        display: flex;
-        flex-direction: column;
-        justify-content: space-evenly;
-
-        h2 {
-          font-weight: bold;
-          font-size: 1rem;
-        }
-        h3 {
-          font-weight: bold;
-          font-size: 1.2rem;
-          transition: color 0.3s ease;
-
-          &:hover {
-            color: ${theme.colors.orange};
-          }
-        }
-        p {
-          font-size: 0.7rem;
-        }
+        height: 30%;
       }
     }
   }

@@ -48,4 +48,27 @@ const AboutTextStyled = styled.div`
   p {
     font-size: 1rem;
   }
+  @media (max-width: 425px) {
+    width: 100%;
+
+    display: flex;
+    flex-direction: column;
+
+    h2 {
+      font-weight: bold;
+      font-size: 0.7rem;
+    }
+    h3 {
+      font-weight: bold;
+      font-size: 1rem;
+      transition: color 0.3s ease;
+
+      &:hover {
+        color: ${theme.colors.orange};
+      }
+    }
+    p {
+      font-size: 0.7rem;
+    }
+  }
 `;
