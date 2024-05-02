@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import { theme } from "../theme";
+import { theme } from "../../../theme";
 
 export default function About() {
   return (
@@ -56,7 +56,7 @@ const AboutStyled = styled.div`
       }
     }
     .about-text {
-      width: 50%;
+      width: 35%;
       height: 40%;
       display: flex;
       flex-direction: column;

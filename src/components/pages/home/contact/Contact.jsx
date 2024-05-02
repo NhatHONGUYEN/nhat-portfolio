@@ -2,7 +2,7 @@ import { IoLogoInstagram } from "react-icons/io";
 import { MdOutlineEmail } from "react-icons/md";
 import { PiPhoneFill } from "react-icons/pi";
 import styled from "styled-components";
-import { theme } from "../theme";
+import { theme } from "../../../theme";
 import { GrGithub } from "react-icons/gr";
 import { FaLinkedin } from "react-icons/fa";
 

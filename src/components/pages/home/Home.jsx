@@ -1,9 +1,9 @@
 import styled from "styled-components";
-import About from "./About";
-import Contact from "./Contact";
-import Introduction from "./Introduction";
-import NavBar from "./NavBar";
-import Projects from "./Projects";
+import About from "./about/About.jsx";
+import Contact from "./contact/Contact";
+import Introduction from "./introduction/Introduction";
+import Projects from "./projects/Projects";
+import NavBar from "../navBar/NavBar";
 
 export default function Home() {
   return (

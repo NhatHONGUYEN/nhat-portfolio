@@ -1,6 +1,6 @@
 import styled from "styled-components";
 import Logo from "./Logo";
-import NavLinks from "./NavLinks";
+import NavLinks from "./navLinks/NavLinks";
 
 export default function NavBar() {
   return (
