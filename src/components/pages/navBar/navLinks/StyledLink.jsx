@@ -1,7 +1,7 @@
 import { Link as RouterLink } from "react-router-dom";
 import { Link as ScrollLink } from "react-scroll";
 import styled from "styled-components";
-import { theme } from "../theme";
+import { theme } from "../../../theme";
 
 export const StyledLink = styled(({ isSmooth, ...props }) => {
   const LinkComponent = isSmooth ? ScrollLink : RouterLink;
