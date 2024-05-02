@@ -41,6 +41,7 @@ const AboutStyled = styled.div`
 
     .about-container {
       height: 90vh;
+      width: 80%;
 
       .image-about {
         width: 50%;

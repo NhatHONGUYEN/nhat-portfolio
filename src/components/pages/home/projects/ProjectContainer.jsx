@@ -66,7 +66,6 @@ const ProjectContainerStyled = styled.div`
 
   .left-review {
     p {
-      padding-bottom: 5%;
     }
   }
 

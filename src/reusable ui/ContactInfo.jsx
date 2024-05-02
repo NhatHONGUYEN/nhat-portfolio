@@ -34,4 +34,55 @@ const ContactInfoStyled = styled.div`
       background-color: ${theme.colors.orange};
     }
   }
+
+  @media (min-width: 769px) and (max-width: 1024px) {
+    .icon-text-container {
+      display: flex;
+      align-items: center;
+      gap: 2vh;
+      font-size: 1rem;
+
+      width: 100%;
+
+      svg {
+        height: 3vh;
+        width: 3vh;
+        margin-right: 0px;
+      }
+    }
+  }
+
+  @media (min-width: 426px) and (max-width: 768px) {
+    .icon-text-container {
+      display: flex;
+      align-items: center;
+      gap: 0rem;
+      font-size: 0.9rem;
+
+      width: 100%;
+
+      svg {
+        height: 3vh;
+        width: 3vh;
+        margin-right: 10px;
+      }
+    }
+  }
+
+  @media (max-width: 425px) {
+    .icon-text-container {
+      display: flex;
+      align-items: center;
+      gap: 0rem;
+      font-size: 0.7rem;
+
+      width: 100%;
+
+      svg {
+        height: 2vh;
+        width: 2vh;
+        margin-right: 10px;
+      }
+    }
+  }
 `;

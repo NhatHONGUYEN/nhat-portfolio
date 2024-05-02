@@ -40,7 +40,7 @@ const ContactStyled = styled.div`
   }
 
   @media (max-width: 425px) {
-    height: 40vh;
+    height: 30vh;
     width: 100%;
     background-color: ${theme.colors.background_grey};
     display: flex;

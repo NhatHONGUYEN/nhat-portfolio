@@ -23,7 +23,7 @@ export default function IconText() {
 
 const IconTextStyled = styled.div`
   padding-top: 3%;
-  width: 40%;
+  width: 50%;
   display: flex;
   flex-direction: row;
   gap: 10vh;
@@ -35,5 +35,18 @@ const IconTextStyled = styled.div`
     &:hover {
       color: ${theme.colors.orange};
     }
+  }
+  @media (min-width: 769px) and (max-width: 1024px) {
+    width: 100vh;
+  }
+
+  @media (min-width: 426px) and (max-width: 768px) {
+    gap: 5vh;
+    width: 100vh;
+  }
+
+  @media (max-width: 425px) {
+    gap: 2vh;
+    width: 100vh;
   }
 `;

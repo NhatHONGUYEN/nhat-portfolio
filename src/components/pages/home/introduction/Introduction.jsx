@@ -60,7 +60,7 @@ const IntroductionStyled = styled.div`
 
     .right-side-intro {
       width: 100%;
-      height: 80%;
+      height: 60%;
     }
   }
 
