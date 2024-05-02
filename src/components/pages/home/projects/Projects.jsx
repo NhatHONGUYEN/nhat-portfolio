@@ -6,7 +6,7 @@ export default function Projects() {
       <h1>Projects</h1>
       <div className="project-container">
         <a
-          href="https://crazee-burger-b07j0ju2l-nhat-quans-projects.vercel.app/"
+          href="https://crazee-burger-eosin-rho.vercel.app/"
           target="_blank"
           rel="noreferrer"
         >
@@ -17,7 +17,7 @@ export default function Projects() {
           </div>
         </a>
         <a
-          href="https://sushi-sensation-gtlfuuh3t-nhat-quans-projects.vercel.app/"
+          href="https://sushi-sensation.vercel.app/"
           target="_blank"
           rel="noreferrer"
         >
@@ -166,7 +166,7 @@ const ProjectsStyled = styled.div`
       gap: 5vh;
       width: 70%;
       height: 80%;
-      padding-left: 20vh;
+      padding-left: 13vh;
 
       a {
         text-decoration: none;
