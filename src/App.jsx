@@ -3,7 +3,7 @@ import Home from "./components/pages/home/Home";
 import About from "./components/pages/home/about/About.jsx";
 import Projects from "./components/pages/home/projects/Projects";
 import Contact from "./components/pages/home/contact/Contact";
-import ErrorPage from "./components/pages/home/about/errorPage/ErrorPage";
+import ErrorPage from "./components/pages/errorPage/ErrorPage.jsx";
 import "./App.css";
 
 function App() {
