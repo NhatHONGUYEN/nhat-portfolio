@@ -75,4 +75,24 @@ const ProjectContainerStyled = styled.div`
       width: 60%;
     }
   }
+
+  @media (max-width: 425px) {
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+    width: 70%;
+    margin-bottom: 10vh;
+
+    h2 {
+      font-size: 1.2rem;
+      padding: 3vh 0;
+    }
+
+    .left-review,
+    .right-review {
+      p {
+        font-size: 0.7rem;
+      }
+    }
+  }
 `;

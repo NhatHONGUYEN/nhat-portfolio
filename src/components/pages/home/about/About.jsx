@@ -75,30 +75,11 @@ const AboutStyled = styled.div`
 
     .about-container {
       height: 90vh;
+      width: 80vh;
 
       .image-about {
         width: 50%;
         height: 50%;
-      }
-      .about-text {
-        width: 70%;
-        height: 50%;
-        display: flex;
-        flex-direction: column;
-        justify-content: space-evenly;
-
-        h2 {
-          font-weight: bold;
-          font-size: 1rem;
-        }
-        h3 {
-          font-weight: bold;
-          font-size: 1.7rem;
-          transition: color 0.3s ease;
-        }
-        p {
-          font-size: 0.9rem;
-        }
       }
     }
   }
@@ -108,18 +89,13 @@ const AboutStyled = styled.div`
     width: 100%;
 
     .about-container {
-      height: 90vh;
+      height: 100vh;
 
       display: flex;
       flex-direction: column-reverse;
       justify-content: center;
       align-items: center;
       gap: 5%;
-
-      .image-about {
-        width: 70%;
-        height: 30%;
-      }
     }
   }
 `;

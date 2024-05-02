@@ -103,27 +103,7 @@ const ProjectsStyled = styled.div`
     h1 {
       top: 7vh;
       left: 39%;
-      font-size: 1.5rem;
-    }
-
-    .project-container {
-      gap: 0;
-      padding-bottom: 5vh;
-      width: 70%;
-
-      h2 {
-        font-size: 1.2rem;
-        padding: 3vh 0;
-      }
-
-      .left-review,
-      .right-review {
-        height: 50%;
-
-        p {
-          font-size: 0.7rem;
-        }
-      }
+      font-size: 1rem;
     }
   }
 `;

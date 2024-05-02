@@ -23,4 +23,9 @@ const ImageAboutStyled = styled.div`
     /* Scale the image to fit the container */
     object-fit: cover;
   }
+
+  @media (max-width: 425px) {
+    width: 70%;
+    height: 30%;
+  }
 `;

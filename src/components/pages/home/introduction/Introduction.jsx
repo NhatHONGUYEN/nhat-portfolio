@@ -100,7 +100,7 @@ const IntroductionStyled = styled.div`
     }
 
     .right-side-intro {
-      height: 40%;
+      height: 50%;
     }
   }
 `;
